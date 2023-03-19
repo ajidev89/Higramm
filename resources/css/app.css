@@ -1,0 +1,32 @@
+/* @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55'); */
+@import '../fonts/Helvetica-Neue/Helvetica.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-[#F8F8F8];
+}
+.nav-link{
+    @apply font-semibold hover:text-primary-green transition-colors ease-in-out duration-500
+}
+.active{
+    @apply text-primary-green
+}
+
+.btn-active{
+    @apply border-primary-green bg-secondary text-primary-green rounded-md border-2 py-2 px-3 text-xs
+}
+
+
+.btn-inactive{
+    @apply  bg-white text-primary-green rounded-md border-2 border-white py-2 px-3 text-xs
+}
+
+.badge-green{
+    @apply bg-[#5CE19626] text-[#5CE196] rounded-md px-3 py-1 text-sm
+}
+
+.bg-overlay-section{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
